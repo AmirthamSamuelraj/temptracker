@@ -8,7 +8,7 @@ function App() {
   const [location,setLocation]=useState('');
   const [data,setData]=useState({});
  
-  //  const url='https://api.openweathermap.org/data/2.5/weather?lat=44.34&lon=10.99&appid=f2d63d44e934b9032be3fd92972c5198'
+   
   const url= `https://api.openweathermap.org/data/2.5/weather?q=${location}&&units=imperial&appid=f2d63d44e934b9032be3fd92972c5198 `;
   
   const searchLocation=(event)=>{
