@@ -1,0 +1,61 @@
+ .searchinput
+ {
+  background: transparent;
+  border-radius: 5px;
+  border: none;
+  outline:none;
+  box-shadow: none;
+  font-size: 20px;
+  
+ }
+ @media (max-width: 576px) {
+    .custom-column {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      margin-top: 2s00px;
+      height: 100vh; /* Ensure the column takes up the full height of the viewport */
+    }
+  }
+ 
+ .searchinput::placeholder
+ {
+  color:yellow;
+  font-size: 20px;
+  /* position: absolute; */
+ }
+ .searchinput:hover
+ {
+    background: transparent;
+    outline:none;
+    box-shadow: none;
+    border:none;
+ }
+body
+ {
+  background-image: url(./image/bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  
+  width: 100vw;
+  height: 100vh;
+ }
+ @media (max-width: 600px) {
+  .section {
+    margin-left: 0;
+    padding-left: 0;
+  }
+}
+.section {
+  margin-left: 0;
+  padding-left: 0;
+}
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
